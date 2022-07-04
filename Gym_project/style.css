@@ -1,0 +1,99 @@
+body {
+    font-family: 'Concert One', cursive;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(gym3.webp);
+    background-size: cover;
+    color: white;
+}
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+.left img {
+    width: 74px;
+    filter: invert();
+}
+.left div {
+    text-align: center;
+}
+.mid {
+    display: block;
+    width: 35%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+}
+.right {
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    font-family: 'Concert One', cursive;
+    margin: 8px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(55, 54, 54);
+}
+#name {
+    font-size: 11px;
+    line-height: 10px;
+}
+.container {
+    border: 2px solid gray;
+    margin: 107px 814px;
+    padding: 49px 54px;
+    width: 30%;
+    border-radius: 21px;
+}
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 360px;
+    margin: 7px auto;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 25px;
+    height: 15px;
+    font-family: 'Concert One', cursive;
+}
+.container button {
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+}
